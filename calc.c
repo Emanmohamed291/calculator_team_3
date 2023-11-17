@@ -1,4 +1,11 @@
 
+//fuction multiplying two double numbers
+
+double multiply (double num1, double num2)
+{
+	return (num1*num2);
+}
+
 
 
 float subtraction(float num1, float num2)
@@ -9,8 +16,9 @@ float subtraction(float num1, float num2)
 }
 	
 
-float add(flaot num1, flaot num2)
+float add(float num1, float num2)
 {
     return (num1+num2);
 }
 
+main
