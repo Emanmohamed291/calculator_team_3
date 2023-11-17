@@ -62,6 +62,18 @@ int main(void){
 		case '%':
 			printf("the result of mod %d by %d = %d",num1,num2, mod(num1, num2));
 			break;
+		case '+':
+			printf("the result of adding %d and %d = %d",num1,num2, add(num1, num2));
+			break;
+		case '-':
+			printf("the result of subtracting %d from %d = %d",num2,num1, subtraction(num1, num2));
+			break;
+		case '*':
+			printf("the result of multiplication %d by %d = %d",num1,num2, multiply(num1, num2));
+			break;
+		case '/':
+			printf("the result of dividing %d by %d = %d",num1,num2, divide(num1, num2));
+			break;
 		
 	}
 	
