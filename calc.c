@@ -49,30 +49,30 @@ int mod(int num1,int num2)
 
 int main(void){
 
-	int num1 , num2 ;
+	float num1 , num2 ;
     char operation;
 	printf("enter num1 : ");
-	scanf("%d",&num1);
+	scanf("%f",&num1);
 	printf("enter operator : ");
 	scanf("%s",&operation);
 	printf("enter num2 : ");
-	scanf("%d",&num2);
+	scanf("%f",&num2);
 	
 	switch (operation){
 		case '%':
-			printf("the result of mod %d by %d = %d",num1,num2, mod(num1, num2));
+			printf("the result of mod %d by %d = %d",(int)num1,(int)num2, mod((int)num1, (int)num2));
 			break;
 		case '+':
-			printf("the result of adding %d and %d = %d",num1,num2, add(num1, num2));
+			printf("the result of adding %f and %f = %f",num1,num2, add(num1, num2));
 			break;
 		case '-':
-			printf("the result of subtracting %d from %d = %d",num2,num1, subtraction(num1, num2));
+			printf("the result of subtracting %f from %f = %f",num2,num1, subtraction(num1, num2));
 			break;
 		case '*':
-			printf("the result of multiplication %d by %d = %d",num1,num2, multiply(num1, num2));
+			printf("the result of multiplication %f by %f = %f",num1,num2, multiply(num1, num2));
 			break;
 		case '/':
-			printf("the result of dividing %d by %d = %d",num1,num2, divide(num1, num2));
+			printf("the result of dividing %f by %f = %f",num1,num2, divide(num1, num2));
 			break;
 		
 	}
