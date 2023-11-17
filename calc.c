@@ -1,6 +1,6 @@
-//fuction multiplying two float numbers
+//fuction multiplying two double numbers
 
-float multiply (float num1, float num2)
+double multiply (double num1, double num2)
 {
 	return (num1*num2);
 }
