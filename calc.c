@@ -1,4 +1,16 @@
+
+
+
+float subtraction(float num1, float num2)
+{
+	float subResult=0;
+	subResult=num1-num2;
+	return subResult;
+}
+	
+
 float add(flaot num1, flaot num2)
 {
     return (num1+num2);
 }
+
